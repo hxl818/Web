@@ -50,3 +50,7 @@ if (!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 };
+
+//Get the current date and time
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString()+" "+dt.toLocaleTimeString();

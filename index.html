@@ -12,6 +12,11 @@
 
 <body>
 <h1>歡迎來到ZOE'S KIT</h1>
+<!--
+  Display Date&Time
+-->
+<p>Date/Time: <span id="datetime"></span></p>
+
   <img src="./images/dog.jpg"  alt="My dog" width="200"/>
 <h2>Navigation Menu</h2>
   <ul>
@@ -49,6 +54,8 @@
 
   <!--
     Link for sending email
+    *In addition,it provides more information with cc,bcc,subject and body
+    Example:mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&subject=This%20is%20the%20subject
   -->
 <p>If you have any enquiry,please send me <a href="mailto:leunghkit@gmail.com">email</a> to let me know</p>
 
@@ -61,8 +68,20 @@
    download="firefox-latest-64bit-installer.exe">
   Download Latest Firefox for Windows (64-bit) (English, US)
 </a>
+<p>ABBreviation<abbr title="Abbreviation">ABB</abbr> </p>
+<p>Web Tech. learn from <a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting">
+  <cite>MDN</cite></a></p>
+
+  <!--
+    Display Address
+  -->
+  <address>
+    <p>Address shown here</p>
+  </address>
+
 
 <script src="scripts/main.js" defer></script>
 </body>
+
 
 </html>
