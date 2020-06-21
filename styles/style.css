@@ -34,3 +34,10 @@ html {
     display: block;
     margin: 0 auto;
   }
+
+  audio{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
